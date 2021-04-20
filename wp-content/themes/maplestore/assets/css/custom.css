@@ -1,0 +1,269 @@
+/**Custom CSS file for handling additional Theme styles **/
+
+body.custom-background {
+  /* background-color: rgba(255, 207, 64, 0.3); */
+  background-color: #fff;
+  color: #000;
+}
+
+.singular .entry-title {
+  font-size: 4rem;
+}
+
+.site-header {
+  padding: 10px 80px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #75a9ff;
+  box-shadow: 0px -10px 28px -1px rgb(56 102 179);
+}
+
+.site-logo .custom-logo {
+  width: 75px;
+}
+
+.primary-navigation .primary-menu-container > ul > .menu-item > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.primary-navigation .current-menu-item > a:first-child:hover,
+.primary-navigation .current-menu-item > a:first-child,
+.primary-navigation .current_page_item > a:first-child:hover {
+  text-decoration: none;
+  background: #faa014;
+}
+
+.entry-title {
+  color: #333;
+}
+
+.site-header .site-logo {
+  margin: 0;
+}
+
+.site-main {
+  max-width: var(--responsive--alignwide-width);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.singular .entry-title {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.entry-header .post-thumbnail {
+  width: 50%;
+  margin: 0;
+}
+
+.entry-content {
+  text-align: left;
+}
+
+.site-footer,
+.no-widgets .site-footer {
+  margin: 0 auto;
+  padding: 0px 80px;
+  max-width: 100%;
+  background-color: #75a9ff;
+}
+
+.site-footer .widget-area {
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer .widget-area img {
+  max-width: 100px !important;
+}
+
+.site-footer > *,
+.widget-area > * {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.widget-area {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.powered-by {
+  display: none;
+}
+
+.site-footer .widget-area .search-form .search-field {
+  margin: 15px 0;
+  padding: 5px 10px;
+}
+
+.site-footer .widget-area .search-form .search-submit,
+.site-footer
+  .widget-area
+  .search-form
+  .search-submit:not(:hover):not(:active):not(.has-background) {
+  margin: 0;
+  color: rgb(250 160 20);
+  border-color: rgb(189 120 12);
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.site-footer .widget-area .search-form .search-submit:hover,
+.site-footer .widget-area .search-form .search-submit:active {
+  background-color: #fff;
+}
+
+.page-title {
+  font-size: 40px;
+}
+
+.entry-title a,
+.entry-title a:hover {
+  color: #456fb5;
+  text-decoration: none;
+}
+
+.site-main > article > .entry-footer {
+  color: #333;
+  border-bottom-color: #333;
+}
+
+.post-taxonomies .cat-links,
+.post-taxonomies .tags-links {
+  margin-top: 10px;
+}
+
+.post-taxonomies .cat-links a,
+.tagcloud a,
+.post-taxonomies .tags-links a {
+  text-decoration: none;
+  background: #faa014;
+  color: #fff;
+  padding: 2px 7px;
+  font-size: 13px !important;
+  border-radius: 3px;
+}
+
+.post-taxonomies .cat-links a:hover,
+.tagcloud a:hover {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+.site textarea {
+  border-color: #75a9ff;
+}
+
+.singular .entry-header {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.wp-block-contact-form-7-contact-form-selector {
+  width: 60%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.wpcf7 .wpcf7-form-control.wpcf7-submit {
+  margin: 0;
+  color: rgb(250 160 20);
+  border-color: rgb(189 120 12);
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.page-header {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.woocommerce .quantity .qty {
+  padding: 1px 0;
+}
+
+.wp-caption-text {
+  text-align: left;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+  padding-right: 5px;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs {
+  margin-top: 15px;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel > * {
+  margin-left: 0 !important;
+}
+
+.product_meta .sku_wrapper,
+.product_meta .posted_in,
+.product_meta .tagged_as {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product_meta .posted_in a,
+.product_meta .tagged_as a {
+  text-decoration: none;
+  background: #faa014;
+  color: #fff;
+  padding: 2px 7px;
+  font-size: 13px !important;
+  border-radius: 3px;
+}
+
+.product_meta .tagged_as {
+}
+
+.site-main > h2 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.site-main > * {
+  margin-top: 50px;
+}
+
+.news-short-image {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.news-short-title a {
+  text-decoration: none;
+}
+
+.news-short-title {
+  color: #456fb5;
+  font-size: var(--entry-header--font-size);
+  letter-spacing: var(--heading--letter-spacing-h2);
+  line-height: var(--heading--line-height-h2);
+  text-decoration: none;
+}
+
+.news-short-description,
+.news-short-pub-date {
+  margin-bottom: 30px;
+}
+
+.woocommerce-form.woocommerce-form-login {
+  width: 50%;
+}
